@@ -96,7 +96,9 @@ void swap_elements()
     cout << "After sorting v4: ";
     loop(v4);
 
-    reve
+    reverse(v4.begin(), v4.end());
+    cout << "After reversing v4: ";
+    loop(v4);
 }
 
 int main(){

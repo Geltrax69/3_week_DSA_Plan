@@ -2,21 +2,29 @@
 #include <vector>
 using namespace std;
 
-int main(){
-    vector<int> v ;
-    cout <<"Enter the Size: ";
-    int n ;
-    cin >> n ;
-    for (int i=0;i<n;i++){
-        int x;
+void loop(vector<int>& v)
+{
+    for(auto it = v.begin(); it != v.end(); ++it){
+        cout << *it << " ";
+    }
+    cout << endl;
+}
 
-        cin>>x;
-        v.push_back(x);
-    }
-    swap(v[0],v[n-1]);
+void basic()
+{
+    vector<int> v = {1,2,3,4,5};
+    loop(v);
+    // push an element to the end
+    v.push_back(6);
+    cout << "After push_back(6): ";
+    loop(v);
     
-    for (int i=0;i<n;i++){
-        cout << v[i] << " ";
-    }
+    
+}
+
+int main(){
+
+    basic();
+
     return 0;
 }

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-$
+#
 using namespace std;
 
 void loop(vector<int>& v)

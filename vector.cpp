@@ -26,6 +26,7 @@ void basic()
 
     // insert an element at the beginning
     v.insert(v.begin(), 0);
+    cout << "After insert(0) at beginning: ";
 
     
 }

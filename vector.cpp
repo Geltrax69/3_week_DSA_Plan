@@ -29,7 +29,8 @@ void basic()
     cout << "After insert(0) at beginning: ";
     loop(v);
 
-    /
+    // erase the second element
+    
     
 }
 

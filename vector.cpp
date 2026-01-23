@@ -55,7 +55,7 @@ void basic()
     //erase a range of elements
     v.erase(v.begin() + 3, v.begin() + 5);
     cout << "After erase elements from index 3 to 4: ";
-    
+    loop(v);
 
 }
 

@@ -59,7 +59,7 @@ void basic()
 
 }
 
-swa
+
 
 int main(){
 

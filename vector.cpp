@@ -102,6 +102,9 @@ void swap_elements()
 }
 
 void find_element()
+{
+    
+}
 
 int main(){
 

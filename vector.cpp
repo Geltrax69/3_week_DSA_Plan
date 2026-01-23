@@ -82,6 +82,6 @@ void swap_elements()
 int main(){
 
     //basic();
-
+    swap_elements();
     return 0;
 }

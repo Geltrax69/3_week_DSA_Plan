@@ -80,7 +80,7 @@ void swap_elements()
     cout << "v2: ";
     loop(v2);
 
-    //swap enee
+    //swap elemets 
 }
 
 int main(){

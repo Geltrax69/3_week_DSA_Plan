@@ -46,8 +46,7 @@ void basic()
     v.emplace_back(8);
     cout << "After emplace_back(7) and emplace_back(8): ";
     loop(v);
-
-    
+    \//
 }
 
 int main(){

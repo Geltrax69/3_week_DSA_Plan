@@ -18,11 +18,13 @@ void basic()
     v.push_back(6);
     cout << "After push_back(6): ";
     loop(v);
-    
+
     // remove the last element
     v.pop_back();
     cout << "After pop_back(): ";
     loop(v);
+
+    
 
     
 }

@@ -111,6 +111,8 @@ void find_element()
     }else{
         cout << "Element " << t << " not found" << endl;    
     }
+
+    
 }
 
 

@@ -37,7 +37,7 @@ void basic()
     // size of the vector
     cout << "Size of vector: " << v.size() << endl;
 
-    
+    //
 
 }
 

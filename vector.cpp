@@ -34,7 +34,7 @@ void basic()
     cout << "After erase second element: ";
     loop(v);
 
-
+    
 }
 
 int main(){

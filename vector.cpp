@@ -107,7 +107,9 @@ void find_element()
     int t = 5;
     auto it = find(v.begin(), v.end(), t);
     if(it != v.end()){
-        cout << "Element " << t << " found at index " << distance(v.begin(),
+        cout << "Element " << t << " found at index " << distance(v.begin(), it) << endl;
+    }else{
+        cout << "Element " << t << " not found" << endl;    
 }
 
 int main(){

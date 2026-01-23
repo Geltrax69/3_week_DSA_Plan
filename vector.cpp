@@ -43,6 +43,8 @@ void basic()
 
     //Add multiple elements sing emplace_back
     v.emplace_back(7,8,9); // adds 7,8,9 at the end
+    cout << "After emplace_back(7,8,9): ";
+    loop(v);
 
 }
 

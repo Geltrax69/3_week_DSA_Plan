@@ -117,6 +117,6 @@ int main(){
 
     //basic();
     //swap_elements();
-    find
+    find_element();
     return 0;
 }

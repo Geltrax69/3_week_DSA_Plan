@@ -37,7 +37,9 @@ void basic()
     // size of the vector
     cout << "Size of vector: " << v.size() << endl;
 
-    //Print the front and t
+    //Print the front and the back element
+    cout << "Front element: " << v.front() << endl;
+    cout << "Back element: " << v.back() << endl;
 
 }
 

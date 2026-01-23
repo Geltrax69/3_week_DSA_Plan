@@ -4,8 +4,8 @@ using namespace std;
 
 void loop(vector<int>& v)
 {
-    for(auto it = v.begin(); it != v.end(); ++it){
-        cout << *it << " ";
+    for(auto it : v){
+        cout << it << " ";
     }
     cout << endl;
 }
@@ -19,6 +19,11 @@ void basic()
     cout << "After push_back(6): ";
     loop(v);
     
+    // remove the last element
+    v.pop_back();
+    cout << "After pop_back(): ";
+    loop(v);
+
     
 }
 

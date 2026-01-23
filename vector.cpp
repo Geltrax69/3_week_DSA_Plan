@@ -30,9 +30,11 @@ void basic()
     loop(v);
 
     // erase the second element
-    v.erase(v.begin() + 1);
+    v.erase(v.begin());
     cout << "After erase second element: ";
     loop(v);
+
+
     
 }
 

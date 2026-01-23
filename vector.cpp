@@ -34,7 +34,9 @@ void basic()
     cout << "After erase second element: ";
     loop(v);
 
-    //
+    // size of the vector
+    cout << "Size of vector: " << v.size() << endl;
+    
 }
 
 int main(){

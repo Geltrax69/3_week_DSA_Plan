@@ -47,6 +47,7 @@ void basic()
     cout << "After emplace_back(7) and emplace_back(8): ";
     loop(v);
     //Add multiple elements using emplace
+    v.emplace(v.begin() + 2, 9);
 }
 
 int main(){

@@ -61,7 +61,22 @@ void basic()
 
 void swap_elements()
 {
-    
+    vector<int> v1 = {1,2,3};
+    vector<int> v2 = {4,5,6};
+
+    cout << "Before swap:" << endl;
+    cout << "v1: ";
+    loop(v1);
+    cout << "v2: ";
+    loop(v2);
+
+    v1.swap(v2);
+
+    cout << "After swap:" << endl;
+    cout << "v1: ";
+    loop(v1);
+    cout << "v2: ";
+    loop(v2);
 }
 
 int main(){

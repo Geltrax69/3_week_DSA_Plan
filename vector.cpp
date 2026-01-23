@@ -101,7 +101,7 @@ void swap_elements()
     loop(v4);
 }
 
-void find
+void find_ele
 
 int main(){
 

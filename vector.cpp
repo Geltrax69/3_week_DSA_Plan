@@ -110,6 +110,7 @@ void find_element()
         cout << "Element " << t << " found at index " << distance(v.begin(), it) << endl;
     }else{
         cout << "Element " << t << " not found" << endl;    
+        
 }
 
 int main(){

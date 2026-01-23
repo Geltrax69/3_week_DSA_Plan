@@ -86,6 +86,7 @@ void swap_elements()
     loop(v3);
     swap(v3[1], v3[3]);
     cout << "After swapping elements at index 1 and 3 within v3: ";
+    loop(v3);
 }
 
 int main(){

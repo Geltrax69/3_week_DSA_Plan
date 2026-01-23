@@ -103,7 +103,7 @@ void swap_elements()
 
 void find_element()
 {
-    
+    vector
 }
 
 int main(){

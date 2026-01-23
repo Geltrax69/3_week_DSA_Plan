@@ -41,7 +41,8 @@ void basic()
     cout << "Front element: " << v.front() << endl;
     cout << "Back element: " << v.back() << endl;
 
-    //Add multiple elements sing emplace
+    //Add multiple elements sing emplace_back
+    v.emplace_back(7);
 
 }
 

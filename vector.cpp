@@ -92,7 +92,7 @@ void swap_elements()
     vector<int> v4 = {5,2,8,1,4};
     cout << "Before sorting v4: ";
     loop(v4);
-    stdsort(v4.begin(), v4.end());
+    sort(v4.begin(), v4.end());
     cout << "After sorting v4: ";
 }
 

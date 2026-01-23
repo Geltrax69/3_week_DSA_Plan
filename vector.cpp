@@ -93,6 +93,7 @@ void swap_elements()
     cout << "Before sorting v4: ";
     loop(v4);
     std::sort(v4.begin(), v4.end());
+    cout << "After sorting v4: ";
 }
 
 int main(){

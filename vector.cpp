@@ -103,7 +103,14 @@ void swap_elements()
 
 void find_element()
 {
-    vector<int> v = 
+    vector<int> v = {1,2,3,4,5};
+    int target = 3;
+    auto it = find(v.begin(), v.end(), target);
+    if(it != v.end()){
+        cout << "Element " << target << " found at index " << distance(v.begin(), it) << endl;
+    } else {
+        cout << "Element " << target << " not found" << endl;
+    }
 }
 
 int main(){

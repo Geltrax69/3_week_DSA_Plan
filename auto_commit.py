@@ -27,8 +27,12 @@ class CodeAnalyzerCommitter:
                 'lines': len(content.split('\n')),
                 'has_includes': '#include' in content,
                 'has_main': 'int main' in content,
-                'has_vector': 'std::vector' in content,
+                'has_vector': 'vector<' in content or 'std::vector' in content,
                 'has_iostream': 'iostream' in content,
+                'has_push_back': 'push_back' in content,
+                'has_pop_back': 'pop_back' in content,
+                'has_insert': 'insert' in content,
+                'has_erase': 'erase' in content,
                 'timestamp': datetime.now().isoformat()
             }
             return analysis
@@ -41,14 +45,22 @@ class CodeAnalyzerCommitter:
         messages = []
         
         if analysis['has_vector']:
-            messages.append("Add vector implementation")
+            messages.append("vector operations")
+        if analysis['has_push_back']:
+            messages.append("push_back")
+        if analysis['has_pop_back']:
+            messages.append("pop_back")
+        if analysis['has_insert']:
+            messages.append("insert")
+        if analysis['has_erase']:
+            messages.append("erase")
         if analysis['has_main']:
-            messages.append("Add main function")
+            messages.append("main function")
         
         if not messages:
-            messages.append("Update code")
+            messages.append("code update")
         
-        msg = " and ".join(messages)
+        msg = "Update with: " + ", ".join(messages[:3])  # Show top 3 features
         msg += f" ({analysis['lines']} lines)"
         return msg
     

@@ -25,7 +25,7 @@ void basic()
     loop(v);
 
     // insert an element at the beginning
-    
+    v.insert(v.begin(), 0);
 
     
 }

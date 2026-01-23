@@ -84,7 +84,7 @@ void swap_elements()
     vector<int> v3 = {1,2,3,4,5};
     cout << "Before swapping elements within v3: ";
     loop(v3);
-    swap(v3.begin, v3.end()-1);
+    swap(v3.begin() + 1, v3.begin() + 3);
     cout << "After swapping elements at index 1 and 3 within v3: ";
     loop(v3);
 }

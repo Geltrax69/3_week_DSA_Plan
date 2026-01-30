@@ -194,7 +194,7 @@ void map_elements()
     cout<<endl;
 }
 
-void learning_Q
+void learning_Queue()
 int main(){
 
     //basic();

@@ -145,7 +145,10 @@ void unordert_learning()
 
 }
 
-void set_le
+void set_learning()
+{
+    
+}
 
 int main(){
 

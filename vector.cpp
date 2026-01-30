@@ -182,7 +182,7 @@ int main(){
     //swap_elements();
     //find_element();
     //unordert_learning();
-    set_learning();
+    //set_learning();
     return 0;
 
 }

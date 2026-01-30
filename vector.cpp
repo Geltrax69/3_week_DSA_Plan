@@ -158,7 +158,8 @@ void set_learning()
     cout << endl;
     cout<<s.count(52); // check if element exists
 
-    if
+    if(s.find(5) != s.end()) cout << "5 Found" << endl;
+    else cout << "5 Not Found" << endl;
 
     cout << endl;
 }

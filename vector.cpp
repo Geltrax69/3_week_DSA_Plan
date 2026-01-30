@@ -149,7 +149,7 @@ void unordert_learning()
 void set_learning()
 {
     set <int> s;
-    for(int i =1; i<10; i++){
+    for(int i =1; i<=10; i++){
         s.insert(i);
     }
     for(auto it : s){

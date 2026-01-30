@@ -174,7 +174,7 @@ void map_elements()
     //map<object_type,object_type> variable_name;
     map<int,int> mp;
     //insertion
-    
+    mp
 
     cout<<endl;
 }

@@ -151,7 +151,7 @@ int main(){
     //basic();
     //swap_elements();
     //find_element();
-    unordert_learning();
+    //unordert_learning();
     return 0;
 
 }

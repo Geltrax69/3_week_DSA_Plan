@@ -175,7 +175,8 @@ void map_elements()
     map<int,int> mp;
     //insertion
     for(int i=1;i<=5;i++){
-        mp.inser
+        mp.insert({i,i*10});
+        
     }
 
     cout<<endl;

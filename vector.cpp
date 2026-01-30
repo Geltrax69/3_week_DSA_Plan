@@ -184,7 +184,8 @@ void map_elements()
 
     //find the element
     int t=3;
-    
+    auto it=mp.find(t);
+    if(it!=mp.end()){
 
     cout<<endl;
 }

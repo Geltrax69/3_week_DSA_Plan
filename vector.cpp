@@ -158,7 +158,7 @@ void set_learning()
     cout << endl;
     cout<<s.count(52); // check if element exists
 
-    
+    if
 
     cout << endl;
 }

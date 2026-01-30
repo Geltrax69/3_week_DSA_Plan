@@ -128,7 +128,7 @@ void unordert_learning()
     }
     cout << endl;
 
-    of
+    for(j)
 
 }
 

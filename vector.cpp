@@ -133,7 +133,8 @@ void unordert_learning()
     if(s.find(t) !=s.end()) cout << t << " Found" << endl;
     else cout << t << " Not Found" << endl;
 
-    //
+    // erase an element
+    
 
 }
 

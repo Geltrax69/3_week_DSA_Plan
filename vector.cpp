@@ -152,7 +152,7 @@ void set_learning()
         s.insert(i);
     }
     for(auto it : s){
-        cout << it << " ";  
+        cout << it << " "; 
 }
 
 int main(){

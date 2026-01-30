@@ -196,7 +196,7 @@ void map_elements()
 
 void learning_Queue()
 {
-    
+    que
 }
 int main(){
 

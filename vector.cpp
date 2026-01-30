@@ -156,7 +156,7 @@ void set_learning()
         cout << it << " "; 
     }
 
-    cout<<
+    cout<<set.count
 
     cout << endl;
 }

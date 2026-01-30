@@ -169,6 +169,8 @@ void set_learning()
     cout << endl;
 }
 
+void 
+
 int main(){
 
     //basic();

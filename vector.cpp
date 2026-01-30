@@ -186,6 +186,10 @@ void map_elements()
     int t=3;
     auto it=mp.find(t);
     if(it!=mp.end()){
+        cout<<"Element "<<t<<" found with value "<<it->second<<endl;
+    }else{
+        cout<<"Element "<<t<<" not found"<<endl;
+    }
 
     cout<<endl;
 }

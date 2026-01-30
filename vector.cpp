@@ -153,7 +153,7 @@ void set_learning()
     }
     for(auto it : s){
         cout << it << " "; 
-}
+    }
     cout << endl;
 }
 

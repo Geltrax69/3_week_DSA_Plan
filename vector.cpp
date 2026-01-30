@@ -141,7 +141,7 @@ void unordert_learning()
     }
     cout << endl;
 
-    cout
+    cout << "Size of unordered_set: " << s.size() << endl;
 
 }
 

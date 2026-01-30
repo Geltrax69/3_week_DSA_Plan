@@ -127,6 +127,8 @@ void unordert_learning()
         cout << it << " ";
     }
     cout << endl;
+
+    
 }
 
 

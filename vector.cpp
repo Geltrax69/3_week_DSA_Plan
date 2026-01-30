@@ -195,6 +195,9 @@ void map_elements()
 }
 
 void learning_Queue()
+{
+    
+}
 int main(){
 
     //basic();

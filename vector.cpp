@@ -129,7 +129,7 @@ void unordert_learning()
     cout << endl;
 
     // check if an element exists
-    int t = 5;
+    int t = 11;
     if(s.find(t) !=s.end()) cout << t << " Found" << endl;
     else cout << t << " Not Found" << endl;
 

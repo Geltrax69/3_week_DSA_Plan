@@ -161,7 +161,11 @@ void set_learning()
     if(s.find(5) != s.end()) cout << "5 Found" << endl;
     else cout << "5 Not Found" << endl;
     cout << "Size of set: " << s.size() << endl;
-    
+    s.erase(5);
+    cout << "After erasing 5: ";
+    for(auto it : s){
+        cout << it << " ";
+    }
     cout << endl;
 }
 

@@ -198,7 +198,8 @@ void learning_Queue()
 {
     queue<int> q;
     q.push(110);
-    q
+    q.push(120);
+    
 }
 int main(){
 

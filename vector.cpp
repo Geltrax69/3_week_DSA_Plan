@@ -194,7 +194,7 @@ void map_elements()
     cout<<endl;
 }
 
-void 
+void learnin
 int main(){
 
     //basic();

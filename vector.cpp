@@ -156,7 +156,7 @@ void set_learning()
         cout << it << " "; 
     }
 
-    cout<<boolans.count(5);
+    cout<<boolans().count(5);
 
     cout << endl;
 }

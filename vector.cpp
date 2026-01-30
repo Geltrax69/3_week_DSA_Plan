@@ -169,10 +169,10 @@ void set_learning()
     cout << endl;
 }
 
-void Unordered-multiset()
+void Unordered_multiset()
 {
 
-    
+
     cout<<endl;
 }
 

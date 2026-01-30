@@ -136,7 +136,9 @@ void unordert_learning()
     // erase an element
     s.erase(5);
     cout << "After erasing 5: ";
-    
+    for(auto it : s){
+        cout << it << " ";
+        
 
 }
 

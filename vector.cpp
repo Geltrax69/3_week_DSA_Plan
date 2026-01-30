@@ -156,7 +156,9 @@ void set_learning()
         cout << it << " "; 
     }
     cout << endl;
-    cout<<s.count(52); // check 
+    cout<<s.count(52); // check if element exists
+
+    
 
     cout << endl;
 }

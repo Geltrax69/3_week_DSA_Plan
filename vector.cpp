@@ -148,7 +148,7 @@ void unordert_learning()
 void set_learning()
 {
     set<int> s;
-    for
+    for(int)
 }
 
 int main(){

@@ -171,7 +171,7 @@ void set_learning()
 
 void map_elements()
 {
-    map<int, string> m;
+    
 
     cout<<endl;
 }

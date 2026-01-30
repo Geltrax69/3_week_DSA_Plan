@@ -134,7 +134,7 @@ void unordert_learning()
     else cout << t << " Not Found" << endl;
 
     // erase an element
-    
+    s.erase(5)
 
 }
 

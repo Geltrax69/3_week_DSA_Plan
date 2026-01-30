@@ -183,7 +183,8 @@ void map_elements()
     }
 
     //find the element
-    i
+    int t=3;
+    
 
     cout<<endl;
 }

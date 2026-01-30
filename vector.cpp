@@ -171,7 +171,6 @@ void set_learning()
 
 void map_elements()
 {
-    unordered_multiset<int> ms;
 
 
     cout<<endl;

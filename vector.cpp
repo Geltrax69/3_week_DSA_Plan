@@ -197,6 +197,7 @@ void map_elements()
 void learning_Queue()
 {
     queue<int> q;
+    q.push()
 }
 int main(){
 

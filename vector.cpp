@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <unordered_set>
 using namespace std;
 
 void loop(vector<int>& v)
@@ -116,11 +117,25 @@ void find_element()
 
 }
 
+void unordert_learning()
+{
+    unordered_set<int> s;
+    for(int i =0; i<10; i++){
+        s.insert(i);
+    }
+    for(auto it : s){
+        cout << it << " ";
+    }
+    cout << endl;
+}
+
 
 int main(){
 
     //basic();
     //swap_elements();
-    find_element();
+    //find_element();
+    unordert_learning();
     return 0;
+
 }

@@ -138,7 +138,7 @@ void unordert_learning()
     cout << "After erasing 5: ";
     for(auto it : s){
         cout << it << " ";
-        
+    }
 
 }
 

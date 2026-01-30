@@ -156,7 +156,7 @@ void set_learning()
         cout << it << " "; 
     }
 
-    cout<<s.count(5);
+    cout<<blles.count(5);
 
     cout << endl;
 }

@@ -169,7 +169,7 @@ void set_learning()
     cout << endl;
 }
 
-void ()
+void mapl_ele()
 {
     unordered_multiset<int> ms;
 

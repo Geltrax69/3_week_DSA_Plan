@@ -171,7 +171,7 @@ void set_learning()
 
 void Unordered_multiset()
 {
-    un
+    unordered_
 
     cout<<endl;
 }

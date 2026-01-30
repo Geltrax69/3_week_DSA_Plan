@@ -172,8 +172,8 @@ void set_learning()
 void map_elements()
 {
     //map<object_type,object_type> variable_name;
-    map<int,int>mp;
-    
+    map<int,int> mp;
+
 
     cout<<endl;
 }

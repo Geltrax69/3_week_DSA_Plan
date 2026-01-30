@@ -155,7 +155,7 @@ void set_learning()
     for(auto it : s){
         cout << it << " "; 
     }
-
+    
     cout<<s.count(5);
 
     cout << endl;

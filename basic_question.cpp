@@ -3,5 +3,5 @@
 using namespace std;
 int countDigits(int n){
     int ctr = 0;
-    while(b)
+    while(n)
 }

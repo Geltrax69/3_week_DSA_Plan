@@ -194,7 +194,7 @@ void map_elements()
     cout<<endl;
 }
 
-
+void prit
 void learning_Queue()
 {
     queue<int> q;

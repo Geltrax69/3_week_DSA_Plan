@@ -32,7 +32,7 @@ int reverseNumberOptimal(int n){
     if(n==0) return 0; // Base Case
     return (n%10 * pow(10, countDigitsOptimal(n)-1)) + reverseNumberOptimal(n/10); //Time Complexity: O(log10N + 1), Space Complexity: O(log10N + 1) due to recursive stack
 }
-
+int re
 
 int main() {
     int number;

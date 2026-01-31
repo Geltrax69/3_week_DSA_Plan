@@ -240,7 +240,7 @@ void learning_deque()
 {
     deque<int> dq;
     dq.push_back(10);
-    dq.push back(20)
+    dq.push back(20)   ;
 }
 
 

@@ -236,6 +236,8 @@ void learning_stack()
 }
 
 void print_deque(deque<int> dq)
+P
+
 
 void learning_deque()
 {

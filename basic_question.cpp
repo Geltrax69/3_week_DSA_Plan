@@ -87,7 +87,7 @@ int main() {
     cout << "Enter your name: ";
     cin >> name;
     cout << "Your name is: ";
-    
+    nameRecursion(name,0,n);
 
     return 0;
 }

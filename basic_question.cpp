@@ -72,7 +72,12 @@ string reverse_String(string s, int l)
 	return reverse_String(s,l-1);
 }
 
-
+string reverse_String(string s, int start, int end)
+{
+    if(start>=end) return s; // Base Case
+    swap(s[start],s[end]);
+    return reverse_String(s,start+1,end-1); //Time Complexity: O(n/2), Space Complexity: O(n/2) due to recursive stack
+}
 
 int main() {
     // int number;

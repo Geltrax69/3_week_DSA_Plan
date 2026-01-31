@@ -55,6 +55,7 @@ int gcdoptimal(int a, int b){
     return gcdoptimal(b, a%b);
 }
 
+
 int main() {
     // int number;
     // cout << "Enter a number: ";

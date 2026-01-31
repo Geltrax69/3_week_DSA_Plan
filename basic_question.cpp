@@ -68,7 +68,8 @@ int main() {
     // }
     int a, b;
     cout << "Enter two numbers to find GCD: ";
-    
+    cin >> a >> b;
+    cout << "GCD of " << a << " and " << b << " is: " << gcdnormal(a, b) << endl;
 
     return 0;
 }

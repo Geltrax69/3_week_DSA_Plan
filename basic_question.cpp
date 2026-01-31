@@ -55,7 +55,7 @@ int gcdoptimal(int a, int b){
     return gcdoptimal(b, a%b);
 }
 
-string 
+string nameRec
 int main() {
     // int number;
     // cout << "Enter a number: ";

@@ -107,7 +107,7 @@ int main() {
 
     cout << endl;
     cout << "Reversed string is: ";
-    reverse_String(name,0,name.length()-1);
+    reverse_String(name,name.length()-1);
 
 
     return 0;

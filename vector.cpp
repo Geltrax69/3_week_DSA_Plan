@@ -264,8 +264,7 @@ void learning_deque()
 
 void print_multimap(map<int,int> mm)
 {
-    fabs
-    }
+    
 }
 void multimap_elements()
 {

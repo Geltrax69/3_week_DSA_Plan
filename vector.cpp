@@ -285,6 +285,7 @@ void multimap_elements()
     }
 
     cout<<endl;
+}
 
 int main(){
 

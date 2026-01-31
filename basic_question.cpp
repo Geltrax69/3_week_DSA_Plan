@@ -45,6 +45,5 @@ int main() {
     cout << "Number of digits in " << number << " is: " << digitCount << endl;
     cout << "Reversed number is: " << reverseNumber(number) << endl;
     cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number)
-            << endl;
     return 0;
 }

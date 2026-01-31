@@ -208,7 +208,8 @@ void learning_Queue()
     q.push(110);
     q.push(120);
     q.push(130);
-    
+    cout << "Queue elements: ";
+    print_queue(q);
 
 }
 int main(){

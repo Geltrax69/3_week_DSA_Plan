@@ -277,6 +277,13 @@ void multimap_elements()
     mm.insert({2,20});
     cout<<"Multimap elements: "<<endl;
     print_multimap(mm);
+
+     mp.erase(mp.begin());
+  cout << "Elements after deleting the first element: " << endl;
+  cout << "Key\tElement" << endl;
+  for (auto it = mp.begin(); it != mp.end(); it++) {
+    cout << it -> first << "\t" << it -> second << endl;
+  }
 }
 
 int main(){

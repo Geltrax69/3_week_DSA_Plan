@@ -38,7 +38,7 @@ int recursiveReverse(int n, int rev = 0){
 }
 
 int palindrome(int n){
-    
+    reve
 }
 
 int main() {

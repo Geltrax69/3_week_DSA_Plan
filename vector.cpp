@@ -237,7 +237,9 @@ void learning_stack()
 
 void print_deque(deque<int> dq)
 {
-    while(!dq.empty())
+    while(!dq.empty()){
+        cout
+    }
 }
 
 void learning_deque()

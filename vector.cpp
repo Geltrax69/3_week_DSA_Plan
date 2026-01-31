@@ -262,7 +262,29 @@ void learning_deque()
 
 }
 
-void multi
+void multimap_elements()
+{
+    //multimap<object_type,object_type> variable_name;
+    multimap<int,int> mp;
+    //insertion
+    for(int i=1;i<=5;i++){
+        mp.insert({i,i*10});
+        mp.insert({i,i*100});
+    }
+    for(auto it:mp){
+        cout<<it.first<<" "<<it.second<<endl;
+    }
+
+    //find the element
+    int t=3;
+    auto it=mp.find(t);
+    if(it!=mp.end()){
+        cout<<"Element "<<t<<" found with value "<<it->second<<endl;
+    }else{
+        cout<<"Element "<<t<<" not found"<<endl;
+    }
+
+    cout<<endl;
 
 int main(){
 

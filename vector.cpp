@@ -236,7 +236,7 @@ void learning_stack()
 }
 
 
-void learning_dequle
+void learning_deque()
 
 
 int main(){

@@ -54,10 +54,7 @@ int gcdoptimal(int a, int b){
     if(b==0) return a;         //Time Complexity: O(log(min(a,b))), Space Complexity: O(log(min(a,b))) due to recursive stack
     return gcdoptimal(b, a%b);
 }
-int gcdrecursive(int a, int b){
-    if(b==0) return a;         //Time Complexity: O(log(min(a,b))), Space Complexity: O(log(min(a,b))) due to recursive stack
-    return gcdrrecursive(b, a%b);
-}
+
 
 int main() {
     // int number;

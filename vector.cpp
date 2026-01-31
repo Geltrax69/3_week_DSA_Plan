@@ -239,7 +239,7 @@ void learning_stack()
 void learning_deque()
 {
     deque<int> dq;
-    dq.
+    dq.push_back
 }
 
 

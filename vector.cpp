@@ -213,7 +213,14 @@ void learning_Queue()
 
 }
 
-void
+void print_stack(stack<int> s)
+{
+    while(!s.empty()){
+        cout << s.top() << " ";
+        s.pop();
+    }
+    cout << endl;
+}
 void learning_stack()
 {
     stack<int> s;

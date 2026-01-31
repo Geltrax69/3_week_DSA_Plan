@@ -245,7 +245,7 @@ void learning_deque()
     dq.push_front(40);
     dq.push_front(50);
     dq.push_front(60);
-    cout<<
+    cout<<"Deque elements: ";
 
 }
 

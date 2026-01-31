@@ -43,6 +43,7 @@ int palindrome(int n){
 }
 
 
+
 int main() {
     int number;
     cout << "Enter a number: ";

@@ -2,5 +2,5 @@
 #include <iostream>
 using namespace std;
 int countDigits(int b){
-    int cte
+    int ctr 
 }

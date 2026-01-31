@@ -43,7 +43,7 @@ int palindrome(int n){
 }
 
 void reverse(auto it){
-
+    
 }
 
 int main() {

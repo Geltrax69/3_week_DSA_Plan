@@ -105,9 +105,9 @@ int main() {
 
     cout <<"string Length is: "<< name.length() << endl;
 
-    // cout << endl;
-    // cout << "Reversed string is: ";
-    // reverse_String(name,0,name.length()-1);
+    cout << endl;
+    cout << "Reversed string is: ";
+    reverse_String(name,0,name.length()-1);
 
 
     return 0;

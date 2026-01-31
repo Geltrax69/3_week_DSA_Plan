@@ -279,9 +279,9 @@ void multimap_elements()
     print_multimap(mm);
 
      mp.erase(mp.begin());
-  cout << "Elements after deleting the first element: " << endl;
+    cout << "Elements after deleting the first element: " << endl;
   cout << "Key\tElement" << endl;
-  for (auto it = mm.begin(); it != mm   .end(); it++) {
+  for (auto it = mm.begin(); it != mm.end(); it++) {
     cout << it -> first << "\t" << it -> second << endl;
   }
 }

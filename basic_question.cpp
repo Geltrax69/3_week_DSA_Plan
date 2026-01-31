@@ -52,8 +52,8 @@ int gcdnormal(int a, int b){
 }
 
 int main() {
-    int number;
-    cout << "Enter a number: ";
+    // int number;
+    // cout << "Enter a number: ";
     // cin >> number;
     // int digitCount = recountDigits(number);
     // cout << "Number of digits in " << number << " is: " << digitCount << endl;

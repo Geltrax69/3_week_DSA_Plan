@@ -275,7 +275,8 @@ void multimap_elements()
         mm.insert({i,i*10});
     }
     mm.insert({2,20});
-    
+    cout<<"Multimap elements: "<<endl;
+    print_multimap(mm);
 }
 
 int main(){

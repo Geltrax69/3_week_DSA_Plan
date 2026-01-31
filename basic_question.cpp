@@ -66,6 +66,8 @@ int main() {
     // } else {
     //     cout << number << " is not a palindrome." << endl;
     // }
+    int a, b;
+    cout << "Enter two numbers to find GCD: ";
     
 
     return 0;

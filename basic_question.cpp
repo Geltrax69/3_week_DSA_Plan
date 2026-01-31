@@ -122,9 +122,7 @@ int main() {
     // cout << reverse_String(name,0,name.length()-1);
     // cout << endl;
 
-    int n;
-    cout << "Enter the position of Fibonacci number to find: ";
-    
+
 
 
     return 0;

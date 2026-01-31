@@ -12,6 +12,7 @@ int countDigits(int n){
 }
 
 int countDigitsOptimal(int n){
+    if (n == 0) return 1; // Edge case for 0
     
 }
 int main() {

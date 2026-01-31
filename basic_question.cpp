@@ -37,6 +37,8 @@ int recursiveReverse(int n, int rev = 0){
     return recursiveReverse(n/10, rev*10 + n%10); //Time Complexity: O(log10N + 1), Space Complexity: O(log10N + 1) due to recursive stack
 }
 
+
+
 int main() {
     int number;
     cout << "Enter a number: ";
@@ -47,6 +49,6 @@ int main() {
     cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
     cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
 
-    
+
     return 0;
 }

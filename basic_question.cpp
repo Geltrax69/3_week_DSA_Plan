@@ -15,7 +15,10 @@ int countDigitsOptimal(int n){
     if (n == 0) return 1; // Edge case for 0
     return (int)log10(n)+1;           //Time Complexity: O(1) , Space Complexity: O(1)
 }
-int rec
+int recountDigits(int n){
+    if(n==0) return 0; // Base Case
+    return 1 + recountDigits(n/10);   //Time Complexity: O(log10N + 1), Space Complexity: O(log10N + 1) due to recursive stack
+}
 
 int main() {
     int number;

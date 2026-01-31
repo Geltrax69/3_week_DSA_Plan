@@ -257,6 +257,8 @@ void learning_deque()
     dq.pop_back();
     print_deque(dq);
 
+    cout
+
 }
 
 

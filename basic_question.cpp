@@ -28,7 +28,7 @@ int reverseNumber(int n){
     }
     return rev;
 }
-
+int 
 
 int main() {
     int number;

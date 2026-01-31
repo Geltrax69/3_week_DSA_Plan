@@ -84,7 +84,7 @@ int printfibseries(int n, int a=0, int b=1){
     cout<<a<<" ";
     return printfibseries(n-1,b,a+b); //Time Complexity: O(n), Space Complexity: O(n) due to recursive stack
 }
-int printfibseriesoptima
+int printfibseriesoptimal
 
 int main() {
     // int number;

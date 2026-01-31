@@ -238,7 +238,8 @@ void learning_stack()
 
 void learning_deque()
 {
-    deque<int>
+    deque<int> dq;
+    
 }
 
 

@@ -5,7 +5,7 @@ int countDigits(int n){
     int ctr = 0;
     if (n <10) return 1; // Edge case for 0
     while(n!=0){
-        n/=10;              //Time Complexity: O(log10N + 1),
+        n/=10;              //Time Complexity: O(log10N + 1), Space Complexity: O(1)
         ctr++;
     }
     return ctr;

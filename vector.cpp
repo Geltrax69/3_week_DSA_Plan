@@ -197,7 +197,7 @@ void map_elements()
 void print_queue(queue<int> q)
 {
     while(!q.empty()){
-        cout << q.bac() << " ";
+        cout << q.back() << " ";
         q.pop();
     }
     cout << endl;

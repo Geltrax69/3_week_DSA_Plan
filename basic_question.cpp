@@ -19,7 +19,7 @@ int main() {
     int number;
     cout << "Enter a number: ";
     cin >> number;
-    int digitCount = countDigits(number);
+    int digitCount = countDigitsOptimal(number);
     cout << "Number of digits in " << number << " is: " << digitCount << endl;
     return 0;
 }

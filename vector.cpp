@@ -275,7 +275,7 @@ void multimap_elements()
         mm.insert({i,i*10});
     }
     mm.insert({2,20});
-    print_multimap(&mm);
+    print_multimap(mm);
 }
 
 int main(){

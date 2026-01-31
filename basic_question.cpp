@@ -55,7 +55,7 @@ int gcdoptimal(int a, int b){
     return gcdoptimal(b, a%b);
 }
 
-string nameRec
+string nameRecursion()
 int main() {
     // int number;
     // cout << "Enter a number: ";

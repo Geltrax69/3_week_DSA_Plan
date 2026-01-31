@@ -81,7 +81,7 @@ int main() {
     // cout << "GCD of " << a << " and " << b << " is: " << gcdnormal(a, b) << endl;
     // cout << "GCD of " << a << " and " << b << " (Optimal) is: " << gcdoptimal(a, b) << endl;
     cout <<"how many times you want to print your name?"<<endl;
-    
+    int
     string name;
     cout << "Enter your name: ";
     cin >> name;

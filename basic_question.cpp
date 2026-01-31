@@ -79,7 +79,11 @@ string reverse_String(string s, int start, int end)
     return reverse_String(s,start+1,end-1); //Time Complexity: O(n/2), Space Complexity: O(n/2) due to recursive stack
 }
 
-int printfibseries
+int printfibseries(int n, int a=0, int b=1){
+    if(n==0) return 0; // Base Case
+    cout<<a<<" ";
+    return printfibseries(n-1,b,a+b); //Time Complexity: O(n), Space Complexity: O(n) due to recursive stack
+}
 int main() {
     // int number;
     // cout << "Enter a number: ";

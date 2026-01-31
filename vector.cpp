@@ -194,7 +194,14 @@ void map_elements()
     cout<<endl;
 }
 
-void print_que
+void print_queue(queue<int> q)
+{
+    while(!q.empty()){
+        cout << q.front() << " ";
+        q.pop();
+    }
+    cout << endl;
+}
 void learning_Queue()
 {
     queue<int> q;

@@ -74,6 +74,7 @@ int main() {
     cout << "Enter two numbers to find GCD: ";
     cin >> a >> b;
     cout << "GCD of " << a << " and " << b << " is: " << gcdnormal(a, b) << endl;
+    cout << "GCD of " << a << " and " << b << " (Optimal) is: " << gcdoptimal(a, b) << endl;
 
     return 0;
 }

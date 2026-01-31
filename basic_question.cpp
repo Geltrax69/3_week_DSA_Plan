@@ -87,7 +87,10 @@ int main() {
     cout << "Enter your name: ";
     cin >> name;
     cout << "Your name is: ";
-    nameRecursion(name,0,name.length());
+    for(int i = 0; i < n; i++) {
+        nameRecursion(name,0,name.length());
+        cout << endl;
+    }
 
     return 0;
 }

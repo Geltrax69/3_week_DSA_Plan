@@ -235,7 +235,7 @@ void learning_stack()
     cout << endl;
 }
 
-void print_deque(deque<)
+void print_deque(deque<int> dq)
 
 void learning_deque()
 {

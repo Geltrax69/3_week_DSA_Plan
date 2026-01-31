@@ -52,6 +52,10 @@ int main() {
     cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
     cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
 
-    
+    if (palindrome(number)) {
+        cout << number << " is a palindrome." << endl;
+    } else {
+        cout << number << " is not a palindrome." << endl;
+    }
     return 0;
 }

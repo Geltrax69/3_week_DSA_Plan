@@ -115,7 +115,7 @@ int main() {
     reverse_String(name,name.length()-1);
     cout << endl;
     cout << "Reversed string (in place) is: ";
-    reverse_String(name,0,name.length()-1);
+    cout << reverse_String(name,0,name.length()-1);
     cout << endl;
 
 

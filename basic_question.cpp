@@ -42,8 +42,6 @@ int palindrome(int n){
     return reverseNumber(n) == n;
 }
 
-
-
 int main() {
     int number;
     cout << "Enter a number: ";

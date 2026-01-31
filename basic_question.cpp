@@ -13,7 +13,7 @@ int countDigits(int n){
 
 int countDigitsOptimal(int n){
     if (n == 0) return 1; // Edge case for 0
-    return (int)log10(n)+1;            
+    return (int)log10(n)+1;           //Time Complexity: O(1) , 
 }
 int main() {
     int number;

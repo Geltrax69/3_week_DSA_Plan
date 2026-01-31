@@ -268,7 +268,7 @@ int main(){
     //map_elements();
     //learning_Queue();
     //learning_stack();
-    
+    learning_deque();
     return 0;
 
 }

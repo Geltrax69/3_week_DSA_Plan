@@ -24,7 +24,7 @@ int main() {
     int number;
     cout << "Enter a number: ";
     cin >> number;
-    int digitCount = (number);
+    int digitCount = recountDigits(number);
     cout << "Number of digits in " << number << " is: " << digitCount << endl;
     return 0;
 }

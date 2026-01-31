@@ -103,7 +103,7 @@ int main() {
     // cout << "Your name is: ";
     // nameRecursion(name,0,n);
 
-    cout <<"string Length"
+    cout <<"string Length is: "<< name.length() << endl;
 
     // cout << endl;
     // cout << "Reversed string is: ";

@@ -51,6 +51,7 @@ int gcdnormal(int a, int b){
     return a;
 }
 
+
 int main() {
     // int number;
     // cout << "Enter a number: ";

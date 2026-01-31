@@ -275,7 +275,7 @@ void print_multimap(map<int,vector<int>> &mm)
 void multimap_elements()
 {
     multimap<int,int> mm;
-    for(i)
+    for(int)
 }
 
 int main(){

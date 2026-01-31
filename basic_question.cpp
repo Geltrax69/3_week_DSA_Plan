@@ -16,6 +16,7 @@ int countDigitsOptimal(int n){
     return (int)log10(n)+1;           //Time Complexity: O(1) , Space Complexity: O(1)
 }
 
+
 int main() {
     int number;
     cout << "Enter a number: ";

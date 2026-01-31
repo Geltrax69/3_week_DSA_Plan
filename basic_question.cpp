@@ -29,6 +29,7 @@ int reverseNumber(int n){
     return rev;
 }
 
+
 int main() {
     int number;
     cout << "Enter a number: ";

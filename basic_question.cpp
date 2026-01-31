@@ -103,6 +103,8 @@ int main() {
     nameRecursion(name,0,n);
 
     cout << endl;
+    cout << "Reversed string is: ";
+    reverse_String(name,0,name.length());
     
 
     return 0;

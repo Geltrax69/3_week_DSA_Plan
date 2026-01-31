@@ -213,7 +213,7 @@ void learning_Queue()
 
 }
 
-
+void
 void learning_stack()
 {
     stack<int> s;

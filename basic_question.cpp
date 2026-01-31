@@ -52,6 +52,6 @@ int main() {
     cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
     cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
 
-
+    
     return 0;
 }

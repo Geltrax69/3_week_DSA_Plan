@@ -42,8 +42,8 @@ int palindrome(int n){
     return reverseNumber(n) == n;
 }
 
-void autoreverse(auto it){
-    
+void reverse(auto it){
+
 }
 
 int main() {

@@ -39,6 +39,7 @@ int recursiveReverse(int n, int rev = 0){
 
 int palindrome(int n){
     reverseNumber(n) == n ? cout << "Palindrome" : cout << "Not Palindrome"; //Time Complexity: O(log10N + 1), Space Complexity: O(1)
+    return reverseNumber(n) == n;
 }
 
 int main() {

@@ -124,7 +124,9 @@ int main() {
     // cout << endl;
 
     int n;
-    
+    cout << "Enter number of terms in Fibonacci series: ";
+    cin >> n;
+    cout << "Fibonacci series: ";
 
 
     return 0;

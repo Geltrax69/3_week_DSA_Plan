@@ -42,7 +42,14 @@ int palindrome(int n){
     return reverseNumber(n) == n;
 }
 
-int gcdnormal
+int gcdnormal(int a, int b){
+    while(b!=0){
+        int temp = b;
+        b = a%b;
+        a = temp;               //Time Complexity: O(log(min(a,b))), Space Complexity: O(1)
+    }
+    return a;
+}
 
 int main() {
     int number;

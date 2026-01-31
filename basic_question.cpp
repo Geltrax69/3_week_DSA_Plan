@@ -118,32 +118,7 @@ int main() {
     // cout << reverse_String(name,0,name.length()-1);
     // cout << endl;
 
-    int n = 10;
-
-    // Edge case: if n is 0, print only 0
-    if (n == 0) {
-        cout << 0;
-    }
-    // Special case: if n is 1, print first two Fibonacci numbers
-    else if (n == 1) {
-        cout << 0 << " " << 1 << "\n";
-    }
-    // General case: generate and print Fibonacci series up to nth term
-    else {
-        int fib[n + 1];    // Array to store Fibonacci numbers up to index n
-        fib[0] = 0;
-        fib[1] = 1;
-
-        // Fill the Fibonacci series using bottom-up dynamic programming
-        for (int i = 2; i <= n; i++) {
-            fib[i] = fib[i - 1] + fib[i - 2];
-        }
-
-        cout << "The Fibonacci Series up to " << n << "th term:" << endl;
-        for (int i = 0; i <= n; i++) {
-            cout << fib[i] << " ";
-        }
-    }
+    
 
 
     return 0;

@@ -243,9 +243,9 @@ void learning_deque()
     dq.push_back(20);
     dq.push_back(30);
     dq.push_front(40);
-    dq
+    dq.push_front(50);
     dq.push_front(60);
-       ;
+    
 
 }
 

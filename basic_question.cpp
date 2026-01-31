@@ -80,7 +80,7 @@ int main() {
     // cin >> a >> b;
     // cout << "GCD of " << a << " and " << b << " is: " << gcdnormal(a, b) << endl;
     // cout << "GCD of " << a << " and " << b << " (Optimal) is: " << gcdoptimal(a, b) << endl;
-    
+    co
     string name;
     cout << "Enter your name: ";
     cin >> name;

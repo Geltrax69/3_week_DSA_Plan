@@ -290,7 +290,7 @@ int main(){
     //learning_Queue();
     //learning_stack();
     //learning_deque();
-    
+    multimap_elements();
 
     return 0;
 

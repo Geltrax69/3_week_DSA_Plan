@@ -102,21 +102,21 @@ int main() {
     // cout <<"how many times you want to print your name?"<<endl;
     // int n;
     // cin >> n;
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    // cout << "Your name is: ";
-    // nameRecursion(name,0,n);
+    // string name;
+    // cout << "Enter your name: ";
+    // cin >> name;
+    // // cout << "Your name is: ";
+    // // nameRecursion(name,0,n);
 
-    cout <<"string Length is: "<< name.length() << endl;
+    // cout <<"string Length is: "<< name.length() << endl;
 
-    cout << endl;
-    cout << "Reversed string is: ";
-    reverse_String(name,name.length()-1);
-    cout << endl;
-    cout << "Reversed string (in place) is: ";
-    cout << reverse_String(name,0,name.length()-1);
-    cout << endl;
+    // cout << endl;
+    // cout << "Reversed string is: ";
+    // reverse_String(name,name.length()-1);
+    // cout << endl;
+    // cout << "Reversed string (in place) is: ";
+    // cout << reverse_String(name,0,name.length()-1);
+    // cout << endl;
 
 
     return 0;

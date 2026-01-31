@@ -66,7 +66,7 @@ string nameRecursion(string name,int c,int n){
 
 string reverse_String(string s, int l)
 {
-	if(l==0) return "";
+	if(l==-1) return "";
 	cout<<s[l]<<"";
 	//pos++;
 	return reverse_String(s,l-1);

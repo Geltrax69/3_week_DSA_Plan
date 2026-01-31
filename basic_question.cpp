@@ -8,4 +8,5 @@ int countDigits(int n){
         n/=10;
         ctr++;
     }
+    return ctr;
 }

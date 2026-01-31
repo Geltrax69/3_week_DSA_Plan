@@ -44,6 +44,8 @@ int main() {
     int digitCount = recountDigits(number);
     cout << "Number of digits in " << number << " is: " << digitCount << endl;
     cout << "Reversed number is: " << reverseNumber(number) << endl;
-    cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number)
+    cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
+    cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
+    
     return 0;
 }

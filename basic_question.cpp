@@ -42,7 +42,7 @@ int palindrome(int n){
     return reverseNumber(n) == n;
 }
 
-void autoreverse
+void autoreverse(aut)
 
 int main() {
     int number;

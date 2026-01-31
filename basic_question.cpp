@@ -37,7 +37,9 @@ int recursiveReverse(int n, int rev = 0){
     return recursiveReverse(n/10, rev*10 + n%10); //Time Complexity: O(log10N + 1), Space Complexity: O(log10N + 1) due to recursive stack
 }
 
-int palindrome(int n)
+int palindrome(int n){
+    
+}
 
 int main() {
     int number;

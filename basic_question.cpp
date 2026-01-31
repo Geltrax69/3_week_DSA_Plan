@@ -55,7 +55,11 @@ int gcdoptimal(int a, int b){
     return gcdoptimal(b, a%b);
 }
 
-string nameRecursion(string name,int c,int n)
+string nameRecursion(string name,int c,int n){
+    if(c==n) return ""; // Base Case
+    cout<<name[c]; 
+    return nameRecursion(name,c+1,n); //Time Complexity: O(n), Space Complexity: O(n) due to recursive stack
+}
 int main() {
     // int number;
     // cout << "Enter a number: ";

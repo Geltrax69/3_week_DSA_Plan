@@ -50,7 +50,7 @@ int gcdnormal(int a, int b){
     }
     return a;
 }
-
+int 
 
 int main() {
     // int number;

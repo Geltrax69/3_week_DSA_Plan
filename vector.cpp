@@ -262,7 +262,7 @@ void learning_deque()
 
 }
 
-
+void print
 void multimap_elements()
 {
     

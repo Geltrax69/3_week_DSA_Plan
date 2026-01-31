@@ -238,7 +238,7 @@ void learning_stack()
 
 void learning_deque()
 {
-    deque
+    deque<int>
 }
 
 

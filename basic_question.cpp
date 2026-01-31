@@ -127,6 +127,8 @@ int main() {
     cout << "Enter number of terms in Fibonacci series: ";
     cin >> n;
     cout << "Fibonacci series: ";
+    printfibseries(n);
+    cout << endl;
 
 
     return 0;

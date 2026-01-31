@@ -43,6 +43,7 @@ int palindrome(int n){
 }
 
 
+
 int main() {
     int number;
     cout << "Enter a number: ";
@@ -59,6 +60,6 @@ int main() {
     //     cout << number << " is not a palindrome." << endl;
     // }
 
-    
+
     return 0;
 }

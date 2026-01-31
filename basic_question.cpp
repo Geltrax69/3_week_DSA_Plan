@@ -102,7 +102,8 @@ int main() {
     cout << "Your name is: ";
     nameRecursion(name,0,n);
 
-    re
+    cout << endl;
+    
 
     return 0;
 }

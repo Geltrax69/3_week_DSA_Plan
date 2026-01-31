@@ -237,6 +237,9 @@ void learning_stack()
 
 
 void learning_deque()
+{
+    d
+}
 
 
 int main(){

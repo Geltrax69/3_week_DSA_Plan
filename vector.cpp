@@ -278,7 +278,7 @@ void multimap_elements()
     for(int i =5; i>=1; i--){
         mm.insert({1,i});
     }
-    
+    mm
 }
 
 int main(){

@@ -262,7 +262,16 @@ void learning_deque()
 
 }
 
-void print
+void print_multimap(map<int,vector<int>> &mm)
+{
+    for(auto it: mm){
+        cout<<it.first<<" : ";
+        for(auto v: it.second){
+            cout<<v<<" ";
+        }
+        cout<<endl;
+    }
+}
 void multimap_elements()
 {
     

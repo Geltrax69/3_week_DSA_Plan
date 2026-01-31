@@ -2,5 +2,6 @@
 #include <iostream>
 using namespace std;
 int countDigits(int b){
-    int ctr 
+    int ctr = 0;
+    while()
 }

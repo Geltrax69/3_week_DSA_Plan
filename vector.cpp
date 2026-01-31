@@ -244,7 +244,7 @@ int main(){
     //set_learning();
     //map_elements();
     //learning_Queue();
-    learning_stack();
+    //learning_stack();
     return 0;
 
 }

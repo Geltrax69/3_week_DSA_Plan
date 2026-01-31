@@ -10,6 +10,8 @@ int countDigits(int n){
     }
     return ctr;
 }
+
+
 int main() {
     int number;
     cout << "Enter a number: ";

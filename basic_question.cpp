@@ -23,7 +23,7 @@ int recountDigits(int n){
 int reverseNumber(int n){
     int rev = 0;
     while(n!=0){
-        if(n)
+        if()
         rev = rev*10 + n%10; //Time Complexity: O(log10N + 1), Space Complexity: O(1)
         n/=10;
     }

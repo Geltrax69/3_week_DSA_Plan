@@ -276,7 +276,7 @@ void multimap_elements()
 {
     multimap<int,int> mm;
     for(int i =5; i>=1; i--){
-        mm.insert({1,i});
+        mm.insert({i,i});
     }
     mm.insert({2,10});
 }

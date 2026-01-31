@@ -11,7 +11,7 @@ int countDigits(int n){
     return ctr;
 }
 
-int countDi
+int countDigits
 int main() {
     int number;
     cout << "Enter a number: ";

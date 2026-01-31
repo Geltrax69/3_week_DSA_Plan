@@ -194,12 +194,13 @@ void map_elements()
     cout<<endl;
 }
 
+
 void learning_Queue()
 {
     queue<int> q;
     q.push(110);
     q.push(120);
-    
+
 }
 int main(){
 

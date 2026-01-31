@@ -42,7 +42,7 @@ int palindrome(int n){
     return reverseNumber(n) == n;
 }
 
-int gcd
+int gcdnormal
 
 int main() {
     int number;

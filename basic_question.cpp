@@ -11,7 +11,9 @@ int countDigits(int n){
     return ctr;
 }
 
-int countDigitsOptimal(int n){}
+int countDigitsOptimal(int n){
+    
+}
 int main() {
     int number;
     cout << "Enter a number: ";

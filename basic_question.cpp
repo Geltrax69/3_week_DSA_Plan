@@ -69,7 +69,7 @@ string reverse_String(string s, int pos, int l)
 	if(l==0) return "";
 	cout<<s[l]<<"";
 	pos++;
-	return s[pos] + reverse_String(s,l);
+	return s[pos] + reverse_String(s,l--);
 }
 
 

@@ -258,7 +258,7 @@ void learning_deque()
     print_deque(dq);
 
     cout<<endl;
-    cout
+    cout<<"Size of deque: "<<dq.size()<<endl;
 
 }
 

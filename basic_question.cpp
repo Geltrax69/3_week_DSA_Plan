@@ -43,5 +43,6 @@ int main() {
     cin >> number;
     int digitCount = recountDigits(number);
     cout << "Number of digits in " << number << " is: " << digitCount << endl;
+    
     return 0;
 }

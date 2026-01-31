@@ -80,9 +80,7 @@ string reverse_String(string s, int start, int end)
 }
 
 int fib(int n){
-    if(n<=1) return n; // Base Case
-    return fib(n-1) + fib(n-2); //Time Complexity: O(2^n), Space Complexity: O(n) due to recursive stack
-}
+
 int main() {
     // int number;
     // cout << "Enter a number: ";

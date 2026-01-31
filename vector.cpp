@@ -262,7 +262,7 @@ void learning_deque()
 
 }
 
-void 
+void multi
 
 int main(){
 

@@ -81,7 +81,11 @@ int main() {
     // cout << "GCD of " << a << " and " << b << " is: " << gcdnormal(a, b) << endl;
     // cout << "GCD of " << a << " and " << b << " (Optimal) is: " << gcdoptimal(a, b) << endl;
 
-    
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Your name is: ";
+    nameRecursion(name,0,name.length());
 
     return 0;
 }

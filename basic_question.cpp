@@ -118,7 +118,7 @@ int main() {
     // cout << reverse_String(name,0,name.length()-1);
     // cout << endl;
 
-    int n = 5;
+    int n = 10;
 
     // Edge case: if n is 0, print only 0
     if (n == 0) {

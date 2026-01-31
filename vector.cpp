@@ -238,7 +238,8 @@ void learning_stack()
 void print_deque(deque<int> dq)
 {
     while(!dq.empty()){
-        cout<<
+        cout<<dq.front() << " ";
+        dq.pop_front();
     }
 }
 

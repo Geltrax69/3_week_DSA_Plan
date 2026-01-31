@@ -46,17 +46,17 @@ int palindrome(int n){
 int main() {
     int number;
     cout << "Enter a number: ";
-    cin >> number;
-    int digitCount = recountDigits(number);
-    cout << "Number of digits in " << number << " is: " << digitCount << endl;
-    cout << "Reversed number is: " << reverseNumber(number) << endl;
-    cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
-    cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
+    // cin >> number;
+    // int digitCount = recountDigits(number);
+    // cout << "Number of digits in " << number << " is: " << digitCount << endl;
+    // cout << "Reversed number is: " << reverseNumber(number) << endl;
+    // cout << "Reversed number (Optimal) is: " << reverseNumberOptimal(number) << endl;
+    // cout << "Reversed number (Recursive) is: " << recursiveReverse(number) << endl;
 
-    if (palindrome(number)) {
-        cout << number << " is a palindrome." << endl;
-    } else {
-        cout << number << " is not a palindrome." << endl;
-    }
+    // if (palindrome(number)) {
+    //     cout << number << " is a palindrome." << endl;
+    // } else {
+    //     cout << number << " is not a palindrome." << endl;
+    // }
     return 0;
 }
